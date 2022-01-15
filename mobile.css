@@ -57,3 +57,7 @@ nav .name {
 .contact-form #field-text {
   width: 350px;
 }
+
+footer {
+  width: 100%;
+}
