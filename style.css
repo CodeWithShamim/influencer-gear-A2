@@ -45,13 +45,19 @@ nav .name {
 
 .left-side .section-button {
   margin-top: 16px;
-  border: none;
+  border: 2px solid #e02c6d;
   background-color: #e02c6d;
   padding: 10px 24px;
   border-radius: 40px;
   color: white;
   font-size: 16px;
   font-weight: bold;
+  transition: 0.4s linear;
+}
+
+.left-side .section-button:hover {
+  background-color: transparent;
+  color: black;
 }
 
 .section-button .fas {
@@ -69,6 +75,12 @@ nav .name {
   background-image: url("./images/Circle\ design.svg");
   background-repeat: no-repeat;
   background-size: cover;
+  transition: 1s linear;
+}
+
+.right-side img:hover {
+  transform: translate(10px, 10px);
+  transform: scale(1.1);
 }
 
 /* ===========section01 end======================= */
