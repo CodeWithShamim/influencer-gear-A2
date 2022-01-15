@@ -47,5 +47,13 @@ nav .name {
 
 .right-side-contact {
   margin: 0 auto;
-  margin-left: 20px;
+}
+
+.contact-form .field-text,
+#field-text {
+  width: 350px;
+}
+
+.contact-form #field-text {
+  width: 350px;
 }
