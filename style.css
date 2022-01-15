@@ -142,5 +142,18 @@ nav .name {
 .section2 .card-button .fas {
   margin-left: 5px;
 }
+.END {
+  content: " ";
+  clear: both;
+}
 
 /* ===========section02 end======================= */
+
+/* ====================Footer start======================= */
+footer {
+  margin-top: 100px;
+  height: 180px;
+  background-color: #0a0826;
+  color: white;
+  text-align: center;
+}
