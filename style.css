@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* =======common style====== */
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+nav .name {
+  margin-top: 47px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* ===========section01 start======================= */
+.section1 {
+  display: flex;
+  align-items: center;
+}
+
+.left-side {
+  flex: 1;
+}
+
+.left-side .section-title {
+  font-size: 40px;
+}
+
+.left-side .section-para {
+  margin-top: 16px;
+  line-height: 1.8;
+  text-align: justify;
+}
+
+.left-side .section-button {
+  margin-top: 16px;
+  border: none;
+  background-color: #e02c6d;
+  padding: 10px 24px;
+  border-radius: 40px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.section-button .fas {
+  margin-left: 8px;
+}
+
+.right-side {
+  flex: 1;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+.right-side img {
+  width: 80%;
+  background-image: url("./images/Circle\ design.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* ===========section01 end======================= */
+
+/* ===========section02 start======================= */
+.section2 {
+  margin-top: 150px;
+}
+.section2 .product-title {
+  font-size: 28px;
+  font-weight: 600px;
+  text-align: center;
+}
+
+.all-cards {
+  display: grid;
+  margin-top: 30px;
+}
+
+.card-1 {
+  width: 330px;
+  height: 480px;
+  background: #ffffff;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 18px 15px;
+}
+
+.card-1 .card-img img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.card-details .card-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 40px;
+}
+
+.card-details .card-price {
+  font-size: 22px;
+  color: rgba(99, 89, 89, 0.87);
+}
+
+.card-details .card-rating .filled {
+  color: #fb8200;
+}
+.card-details .card-rating .empty {
+  color: rgb(189, 182, 182);
+}
+
+.card-details .card-para {
+  font-size: 14px;
+  font-weight: 900px;
+}
