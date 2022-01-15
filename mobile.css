@@ -37,16 +37,19 @@ nav .name {
   margin: 0 auto;
 }
 /* =========section02 end ==========*/
+
+/* =========section03 start ==========*/
 .section3 .contact {
   flex-direction: column;
 }
 
 .left-side-contact {
-  margin: 0 auto;
+  text-align: center;
 }
 
 .right-side-contact {
-  margin: 0 auto;
+  text-align: center;
+  margin-left: 50px;
 }
 
 .contact-form .field-text,
@@ -57,7 +60,4 @@ nav .name {
 .contact-form #field-text {
   width: 350px;
 }
-
-footer {
-  width: 100%;
-}
+/* =========section03 end ==========*/
