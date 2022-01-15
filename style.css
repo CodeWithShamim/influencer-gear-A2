@@ -155,5 +155,19 @@ footer {
   height: 180px;
   background-color: #0a0826;
   color: white;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
+
+footer p {
+  color: #d9dbe1;
+  line-height: 30px;
+}
+
+footer .footer-icon .fab {
+  margin-top: 10px;
+  margin-right: 16px;
+}
+/* ====================Footer end======================= */
