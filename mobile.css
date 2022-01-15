@@ -1,0 +1,51 @@
+/* =========section01 start ==========*/
+nav .name {
+  text-align: center;
+}
+
+.section1 {
+  flex-direction: column;
+}
+
+.left-side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.left-side .section-title {
+  text-align: center;
+}
+
+.left-side .section-para {
+  text-align: center;
+}
+
+.right-side {
+  margin-left: 60px;
+}
+/* =========section01 end ==========*/
+
+/* =========section02 start ==========*/
+
+.all-cards {
+  grid-template-columns: 1fr;
+}
+
+.card {
+  margin: 0 auto;
+}
+/* =========section02 end ==========*/
+.section3 .contact {
+  flex-direction: column;
+}
+
+.left-side-contact {
+  margin: 0 auto;
+}
+
+.right-side-contact {
+  margin: 0 auto;
+  margin-left: 20px;
+}
