@@ -90,7 +90,7 @@ nav .name {
   grid-row-gap: 50px;
 }
 
-.card-1 {
+.card {
   width: 330px;
   height: 480px;
   background: #ffffff;
@@ -99,7 +99,7 @@ nav .name {
   padding: 18px 15px;
 }
 
-.card-1 .card-img img {
+.card .card-img img {
   width: 100%;
   border-radius: 5px;
 }
@@ -148,6 +148,54 @@ nav .name {
 }
 
 /* ===========section02 end======================= */
+
+/* ===========section03 start======================= */
+
+.section3 {
+  margin-top: 100px;
+}
+.section3 .contact {
+  display: flex;
+}
+
+.contact .left-side-contact {
+  flex: 1;
+}
+
+.contact .right-side-contact {
+  flex: 1;
+}
+
+.right-side-contact .contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-form .field-text {
+  padding: 10px 20px;
+  margin-top: 10px;
+  width: 500px;
+  border: 2px solid black;
+  border-radius: 10px;
+  color: blue;
+}
+
+.contact-form .field-text:focus {
+  background-color: rgb(212, 207, 207);
+}
+
+.contact-form #field-text {
+  padding: 10px 20px;
+  margin-top: 10px;
+  width: 500px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+/* ===========section03 end======================= */
 
 /* ====================Footer start======================= */
 footer {
