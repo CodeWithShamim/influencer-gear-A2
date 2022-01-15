@@ -127,4 +127,20 @@ nav .name {
   font-weight: 900px;
 }
 
-/* ===========section02 start======================= */
+/* ==================Card button============ */
+.section2 .card-button {
+  border: none;
+  background-color: transparent;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  color: rgba(247, 51, 122, 0.884);
+  margin-top: 30px;
+  float: right;
+}
+
+.section2 .card-button .fas {
+  margin-left: 5px;
+}
+
+/* ===========section02 end======================= */
